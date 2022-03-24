@@ -29,12 +29,14 @@
 }
 .our-process__wrap {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .our-process__item {
   width: 350px;
-  margin: 0 15px;
+}
+.our-process__item:nth-child(2) {
+  margin: 0 30px;
 }
 .our-process__item-img {
   display: flex;

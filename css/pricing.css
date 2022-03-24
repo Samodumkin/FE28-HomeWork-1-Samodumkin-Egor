@@ -34,11 +34,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 -78px 0 0;
+}
+.pricing__list:nth-child(2) {
+  margin-left: 78px;
+  margin-right: 78px;
 }
 .pricing__list {
   width: 328px;
-  margin-right: 78px;
 }
 .pricing__list-item-1 {
   background: #333333;
