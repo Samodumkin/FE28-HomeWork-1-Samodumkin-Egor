@@ -1,0 +1,39 @@
+.social-icons {
+  background: #f8efef;
+  padding: 14px 0 17px;
+}
+.social-icons__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.social-icons__content {
+  width: 365px;
+  margin-right: 15px;
+}
+.social-icons__title {
+    margin-bottom: 14px;
+}
+.social-icons__title h2 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  align-items: center;
+  color: #333333;
+}
+.social-icons__subtitle p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+  align-items: center;
+  color: #86878b;
+}
+.social-icons__img img {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
