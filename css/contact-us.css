@@ -81,10 +81,10 @@
 }
 .contact-us__button {
   width: 166px;
-  height: 42px;
+  display: block;
+  cursor: pointer;
   background: #ec7979;
   margin: 0 auto;
-  padding: 11px;
   text-align: center;
   transition: 0.5s;
 }
@@ -101,5 +101,6 @@
   line-height: 20px;
   text-align: center;
   color: #ffffff;
-  padding: 11px 0;
+  padding: 11px;
+  display: block;
 }

@@ -45,10 +45,9 @@
   margin-bottom: 57px;
 }
 .noname-section__button {
+  display: block;
   width: 135px;
-  height: 42px;
   border: 1px solid #ffffff;
-  padding: 11px;
   margin: 0 auto;
   cursor: pointer;
   transition: 0.5s;
@@ -66,4 +65,5 @@
   font-size: 15px;
   line-height: 20px;
   color: #ffffff;
+  padding: 11px;
 }

@@ -73,12 +73,12 @@
 }
 .feautures-btn {
   width: 135px;
-  height: 42px;
   background: #ec7979;
   border: 1px solid #ffffff;
   box-sizing: border-box;
   cursor: pointer;
-  padding: 9px 29px;
+  display: block;
+  transition: 0.5s;
 }
 .feautures-btn a {
   font-family: "Open Sans";
@@ -86,6 +86,13 @@
   font-size: 15px;
   line-height: 20px;
   color: #ffffff;
+  display: block;
+  padding: 9px 29px;
+}
+.feautures-btn:hover {
+  background-color: rgb(73, 19, 19);
+  border-radius: 20px;
+  transition: 0.5s;
 }
 .feautures__img img{
   display: block;
