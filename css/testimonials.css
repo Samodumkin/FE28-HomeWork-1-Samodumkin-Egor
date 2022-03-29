@@ -1,0 +1,116 @@
+.testimonials {
+  padding: 80px 0 70px;
+}
+.testimonials__text-wrap {
+  text-align: center;
+}
+.testimonials__title {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 34px;
+}
+.testimonials__title::after {
+  content: "";
+  margin: 0 auto;
+  width: 64px;
+  display: block;
+  border: 1px solid #e72424;
+  margin-top: 34px;
+}
+.testimonials__subtitle {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+  margin-bottom: 67px;
+}
+
+.testimonials__card-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.testimonials__card-content {
+  width: 298px;
+  margin: 0 15px;
+}
+.testimonials__text {
+  background: #e2e2e2;
+  border-radius: 7px;
+  padding: 9px 22px 6px 23px;
+  position: relative;
+}
+.testimonials__text::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #e2e2e2;
+  position: absolute;
+  top: 100%;
+  left: 40px;
+}
+
+.testimonials__text p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+}
+.testimonials__contact {
+  display: flex;
+  width: 298px;
+}
+.testimonials__contact-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 22px 0 0 45px;
+}
+.testimonials__contact-img-avatar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials__contact-item-name {
+  display: block;
+  padding-top: 30px;
+  padding-left: 45px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #333333;
+}
+.testimonials__contact-item-post {
+  display: block;
+  padding-top: 12px;
+  padding-left: 83px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+}
+.treug {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid #e2e2e2;
+}

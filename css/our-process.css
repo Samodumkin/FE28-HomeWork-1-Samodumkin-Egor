@@ -13,12 +13,15 @@
   margin-bottom: 34px;
   text-transform: uppercase;
 }
-.our-process__border {
+.our-process__title::after {
+  content: "";
   margin: 0 auto;
   width: 64px;
+  display: block;
   border: 1px solid #e72424;
-  margin-bottom: 34px;
+  margin-top: 34px;
 }
+
 .our-process__subtitle {
   font-family: "Open Sans";
   font-weight: 400;
@@ -29,15 +32,15 @@
 }
 .our-process__wrap {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
+  margin: 0 -15px;
 }
 .our-process__item {
   width: 350px;
+  margin: 0 15px;
 }
-.our-process__item:nth-child(2) {
-  margin: 0 30px;
-}
+
 .our-process__item-img {
   display: flex;
   justify-content: center;
