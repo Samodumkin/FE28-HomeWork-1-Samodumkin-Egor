@@ -13,7 +13,7 @@
   margin-right: 15px;
 }
 .social-icons__title {
-    margin-bottom: 14px;
+  margin-bottom: 14px;
 }
 .social-icons__title h2 {
   font-family: "Open Sans";
@@ -31,7 +31,10 @@
   align-items: center;
   color: #86878b;
 }
+
 .social-icons__img img {
+  width: 684px;
+  height: 42px;
   display: block;
   background-repeat: no-repeat;
   background-position: center;
