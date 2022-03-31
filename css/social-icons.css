@@ -31,12 +31,20 @@
   align-items: center;
   color: #86878b;
 }
-
-.social-icons__img img {
-  width: 684px;
-  height: 42px;
-  display: block;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.social-icons__social-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -25px;
 }
+.social-icons__social-iteam i:hover{
+  transform: translate(0px, -20px);
+  color: crimson;
+}
+.social-icons__social-iteam{
+  margin: 0 25px;
+}
+.social-icons-contact{
+  font-size: 42px;
+  color: #86878B;
+}
+
