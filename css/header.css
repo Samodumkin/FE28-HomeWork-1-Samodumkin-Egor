@@ -19,10 +19,9 @@
   color: #ffffff;
   text-transform: uppercase;
 }
-.logo::after {
+.logo span::after {
   content: "it";
   display: inline-block;
-  margin-left: -5px;
   color: #EC7979
 }
 .main__nav-list {
