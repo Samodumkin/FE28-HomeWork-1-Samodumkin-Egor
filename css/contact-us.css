@@ -29,78 +29,80 @@
   color: #86878b;
   margin-bottom: 91px;
 }
-.contact-us__input-wrapper {
+.contact-us__form {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 70px;
 }
-.contact-us__input-hookup {
-  display: flex;
-  width: 478px;
+.contact-us__form-right {
+  width: 40%;
 }
-.contact-us__input-hookup input {
-  border: none;
+.contact-us__form-right-item {
+  display: flex;
   border-bottom: 1px solid #bdbdbd;
+}
+.contact-us__form-right-item input {
+  border: none;
   width: 100%;
   outline: none;
-  padding-left: 20px;
-}
-.contact-us__input-hookup a {
+  margin-left: 15px;
   font-family: "Open Sans";
-  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbdbd;
+}
+.contact-us__form-right-item label {
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
   color: #bdbdbd;
   padding: 32px 0;
-  border-bottom: 1px solid #bdbdbd;
 }
-.contact-us__input-hookup-wrap {
-  border-bottom: 1px solid #bdbdbd;
+
+.contact-us__from-left {
+  width: 40%;
 }
-.contact-us__input-reach {
-  display: flex;
-  width: 478px;
+.contact-us__from-left-item {
+border-bottom: 1px solid #bdbdbd;
+
 }
-.contact-us__input-reach input {
-  border: none;
+
+.contact-us__from-left-item textarea {
   width: 100%;
-  outline: none;
-  padding-left: 20px;
-}
-.contact-us__input-reach a {
+  height: 251px;
   font-family: "Open Sans";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
   color: #bdbdbd;
-  padding: 32px 0;
   display: block;
+  outline: none;
+  resize: none;
+  border: none;
+  padding: 32px 0 0 0;
 }
-.contact-us__button {
-  width: 166px;
-  display: block;
-  cursor: pointer;
-  background: #ec7979;
-  margin: 0 auto;
-  text-align: center;
-  transition: 0.5s;
+.contsct-us__button{
+display: flex;
+justify-content: center;
 }
-.contact-us__button:hover {
+.contact-us__button-btn:hover {
   background-color: rgb(73, 19, 19);
   border-radius: 20px;
   transition: 0.5s;
 }
 .contact-us__button-btn {
   font-family: "Open Sans";
-  font-style: normal;
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
   text-align: center;
   color: #ffffff;
-  padding: 11px;
-  display: block;
+  padding: 11px 32px;
+  background: #ec7979;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
 }

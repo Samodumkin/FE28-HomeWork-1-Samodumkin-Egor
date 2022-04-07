@@ -1,11 +1,11 @@
-.main {
+.header {
   position: sticky;
   top: 0;
   z-index: 200;
   padding: 20px 0 19px;
   background-color: black;
 }
-.main__wrap {
+.header__wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -24,7 +24,7 @@
   display: inline-block;
   color: #EC7979
 }
-.main__nav-list {
+.header__nav-list {
   display: flex;
   flex-wrap: wrap;
   margin-right: -24px;
