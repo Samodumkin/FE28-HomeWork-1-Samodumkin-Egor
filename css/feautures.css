@@ -6,22 +6,19 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 -15px;
 }
 .feautures__frame {
   display: flex;
   flex-direction: column;
-  margin: 0 15px;
 }
 .feautures__frame-items-activ {
   padding: 45px 35px;
   width: 112px;
   height: 110px;
-  background: #ec7979;
   border-radius: 4px;
   margin-bottom: 10px;
+  background: #ec7979;
   font-family: "Open Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 15px;
   line-height: 20px;
@@ -33,11 +30,10 @@
   padding: 45px 35px;
   width: 112px;
   height: 110px;
-  background: #333333;
   border-radius: 4px;
   margin-bottom: 10px;
+  background: #333333;
   font-family: "Open Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 15px;
   line-height: 20px;
@@ -45,7 +41,8 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.feautures__frame-items:last-child{
+
+.feautures__frame-items:last-child {
   margin-bottom: 0px;
 }
 .feautures__content {
@@ -54,9 +51,11 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 0 15px;
-
 }
-.features__title {
+.features__subtitle {
+  margin-bottom: 30px;
+}
+.features__title h2 {
   font-family: "Open Sans";
   font-weight: 700;
   font-size: 14px;
@@ -64,7 +63,7 @@
   text-transform: uppercase;
   color: #000000;
 }
-.features__subtitle {
+.features__subtitle p {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -72,7 +71,9 @@
   line-height: 19px;
   text-transform: uppercase;
   color: #86878b;
-  margin-bottom: 89px;
+}
+.features__subtitle-first {
+  margin-bottom: 27px;
 }
 .feautures-btn {
   width: 135px;
@@ -96,12 +97,27 @@
   border-radius: 20px;
   transition: 0.5s;
 }
-.feautures__img{
-  margin: 0 15px;
+.feautures__img {
+  max-width: 320px;
+  max-height: 253px;
 }
-.feautures__img img{
-  display: block;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+
+.feautures__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+@media (max-width: 1063px) {
+  .feautures__wrap {
+    justify-content: center;
+  }
+  .feautures__img {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 743px) {
+  .feautures__frame {
+    margin-bottom: 20px;
+  }
 }

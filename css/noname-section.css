@@ -9,7 +9,6 @@
 .noname-section::after {
   content: "";
   background: rgba(0, 0, 0, 0.55);
-  fill: 55%;
   position: absolute;
   top: 0;
   left: 0;

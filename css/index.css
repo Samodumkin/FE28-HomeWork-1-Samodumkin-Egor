@@ -16,6 +16,9 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  border: none;
+  outline: none;
+  resize: none;
 }
 .container {
   max-width: 1170px;
@@ -24,3 +27,35 @@
   position: relative;
   z-index: 100;
 }
+/* @media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+
+  .container {
+    max-width: 750px;
+  }
+} */
+/* @media (max-width: 767px) {
+  html {
+    font-size: 15px;
+  }
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 430px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    width: 100%;
+  }
+}
+@media  (max-width: 320px) {
+  html {
+    font-size: 14px;
+  }
+} */

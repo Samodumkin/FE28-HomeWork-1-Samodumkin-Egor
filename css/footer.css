@@ -35,10 +35,10 @@
   font-weight: 600;
   color: rgba(255, 255, 255, 0.5);
 }
-.footer__social-iteam i{
+.footer__social-iteam i {
   transition: 0.5s;
 }
-.footer__social-iteam:hover i{
+.footer__social-iteam:hover i {
   transition: 0.5s;
   transform: scale(2) rotate(360deg) skew(-30deg);
   color: aliceblue;

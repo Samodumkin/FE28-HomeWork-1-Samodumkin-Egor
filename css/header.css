@@ -11,7 +11,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.logo {
+.logo span {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 30px;
@@ -22,16 +22,20 @@
 .logo span::after {
   content: "it";
   display: inline-block;
-  color: #EC7979
+  color: #ec7979;
+}
+.header__nav {
+  width: 489px;
 }
 .header__nav-list {
+  max-width: 489px;
   display: flex;
   flex-wrap: wrap;
-  margin-right: -24px;
+  justify-content: space-between;
 }
 .list__item {
-  margin: 0 24px;
   border-bottom: 3px solid transparent;
+  margin-left: 15px;
 }
 .list__item:hover {
   border-color: #ffffff;
@@ -42,7 +46,11 @@
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
-  text-align: center;
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.7);
+}
+@media (max-width: 992px) {
+  .header {
+    display: none;
+  }
 }

@@ -51,12 +51,12 @@
   text-align: center;
   color: #ffffff;
   margin-bottom: 1px;
-  transition: 0,2s;
+  transition: 0, 2s;
 }
-.pricing__list-item-tarif:active{
+.pricing__list-item-tarif:active {
   transform: translate(0px, -30px);
   transition: 0.2s;
-  box-shadow: inset 0px 0px 25px 0px rgb(207, 93, 182, 0.3)
+  box-shadow: inset 0px 0px 25px 0px rgb(207, 93, 182, 0.3);
 }
 .pricing__list-item-cost {
   background: #333333;
@@ -70,11 +70,10 @@
   margin-bottom: 1px;
   transition: 0.2s;
 }
-.pricing__list-item-cost:hover{
+.pricing__list-item-cost:hover {
   transform: translate(0px, -30px);
   transition: 0.2s;
-  box-shadow: inset 0px 0px 25px 0px rgb(250, 247, 245, 0.3)
- 
+  box-shadow: inset 0px 0px 25px 0px rgb(250, 247, 245, 0.3);
 }
 .pricing__list-item-term {
   background: #333333;
@@ -87,10 +86,10 @@
   margin-bottom: 1px;
   transition: 0.2s;
 }
-.pricing__list-item-term:hover{
+.pricing__list-item-term:hover {
   transform: translate(0px, -30px);
   transition: 0.2s;
-  box-shadow: inset 0px 0px 25px 0px rgb(250, 247, 245, 1)
+  box-shadow: inset 0px 0px 25px 0px rgb(250, 247, 245, 1);
 }
 .pricing__list-item {
   font-family: "Open Sans";
@@ -103,11 +102,18 @@
   margin-bottom: 1px;
   transition: 0.2s;
 }
-.pricing__list-item:hover{
+.pricing__list-item:hover {
   transition: 0.2s;
-  box-shadow: 0px 0px 25px 0px rgb(114, 145, 180, 0.3)
-
+  box-shadow: 0px 0px 25px 0px rgb(114, 145, 180, 0.3);
 }
 .pricing__list-item:last-child {
   margin-bottom: 0px;
+}
+@media (max-width: 1139px) {
+  .pricing__list-wrap {
+    justify-content: center;
+  }
+  .pricing__list {
+    margin-bottom: 20px;
+  }
 }

@@ -51,12 +51,12 @@
   border: 1px solid #e72424;
   margin: 0 auto 30px;
 }
-.our-process__item-img i{
-font-size: 30px;
-color: rgb(231, 160, 6);
-transition: 0.5s;
+.our-process__item-img i {
+  font-size: 30px;
+  color: rgb(231, 160, 6);
+  transition: 0.5s;
 }
-.our-process__item-img i:hover{
+.our-process__item-img i:hover {
   font-size: 50px;
   color: rgb(253, 61, 141);
   transition: 0.5s;
@@ -77,4 +77,12 @@ transition: 0.5s;
   line-height: 19px;
   text-align: center;
   color: #000000;
+}
+@media (max-width: 1139px) {
+  .our-process__wrap {
+    justify-content: center;
+  }
+  .our-process__item {
+    margin-bottom: 20px;
+  }
 }
