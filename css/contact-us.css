@@ -90,7 +90,6 @@
   justify-content: center;
 }
 .contact-us__button-btn {
-  display: flex;
   font-family: "Open Sans";
   font-weight: 600;
   font-size: 15px;
@@ -101,7 +100,6 @@
   background: #ec7979;
   cursor: pointer;
   transition: 0.2s;
-  position: relative;
   animation-name: heart;
   animation-duration: 1s;
   animation-iteration-count: infinite;

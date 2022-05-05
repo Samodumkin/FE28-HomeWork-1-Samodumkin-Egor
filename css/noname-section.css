@@ -44,25 +44,23 @@
   margin-bottom: 57px;
 }
 .noname-section__button {
-  display: block;
-  width: 135px;
-  border: 1px solid #ffffff;
-  margin: 0 auto;
-  cursor: pointer;
-  transition: 0.5s;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
-.noname-section__button:hover {
+.noname-section__button-btn:hover {
   background-color: rgb(73, 19, 19);
   border-radius: 20px;
-  transition: 0.5;
+  transition: 0.5s;
 }
 .noname-section__button-btn {
-  display: block;
+  display: inline-block;
+  padding: 11px 26px;
+  border: 1px solid #ffffff;
   font-family: "Open Sans";
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
   color: #ffffff;
-  padding: 11px 26px;
+  transition: 0.5s;
 }
+
